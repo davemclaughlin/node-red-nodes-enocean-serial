@@ -2,14 +2,14 @@
   "name": "node-enocean",
   "version": "1.0.0",
   "description": "Enocean Handler",
-  "main": "node-enocean.js",
+  "main": "node-red-contrib-enocean-in-out-0-1.js",
   "keywords": [
     "node-red",
     "node-enoceanpi"
   ],
   "node-red" : {
     "nodes": {
-       "enoceanpi": "node-enocean.js"
+       "enoceanpi": "node-red-contrib-enocean-in-out-0-1.js"
     }
   },
   "author": "Unknown",
