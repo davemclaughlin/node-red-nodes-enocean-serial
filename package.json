@@ -1,0 +1,18 @@
+{
+  "name": "node-enocean",
+  "version": "1.0.0",
+  "description": "Enocean Handler",
+  "main": "node-enocean.js",
+  "keywords": [
+    "node-red",
+    "node-enoceanpi"
+  ],
+  "node-red" : {
+    "nodes": {
+       "enoceanpi": "node-enocean.js"
+    }
+  },
+  "author": "Unknown",
+  "license": "ISC"
+}
+
