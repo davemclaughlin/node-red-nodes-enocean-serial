@@ -98,8 +98,8 @@ module.exports = function(RED) {
 					msg.ID= msg.payload;
 					if(swState == "10" || swState == "50"){msg.state= 1;}
 					if(swState == "30" || swState == "70"){msg.state= 0;}
-					if(swState == "10" || swState == "30"){msg.rocker= "B";}
-					if(swState == "50" || swState == "70"){msg.rocker= "A";}			
+					if(swState == "10" || swState == "30"){msg.rocker= "A";}
+					if(swState == "50" || swState == "70"){msg.rocker= "B";}			
 					msg.rssiHex=packet.substring(36,38);
 					msg.rssi=  "-"+parseInt(msg.rssiHex, 16);
 				}
